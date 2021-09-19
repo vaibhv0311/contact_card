@@ -43,6 +43,15 @@ class MyApp extends StatelessWidget {
                   fontStyle: FontStyle.normal,
                 ),
               ),
+              Text(
+                "New Here",
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 23,
+                  fontFamily: 'Sans Pro',
+                  fontStyle: FontStyle.normal,
+                ),
+              ),
             ],
           ),
         ),
