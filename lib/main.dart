@@ -47,26 +47,27 @@ class MyApp extends StatelessWidget {
               ),
               Container(
                 color: Colors.white,
-                margin: EdgeInsets.all(35),
+                padding: EdgeInsets.all(10),
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
+                ),
                 child: SafeArea(
                   child: Row(
                     children: [
-                      Padding(
-                        padding: const EdgeInsets.all(12.0),
-                        child: Icon(
-                          Icons.call,
-                          color: Colors.teal[900],
-                        ),
+                      Icon(
+                        Icons.call,
+                        color: Colors.teal[900],
                       ),
-                      Padding(
-                        padding: const EdgeInsets.all(12.0),
-                        child: Text(
-                          "9643086660",
-                          style: TextStyle(
-                            fontSize: 25,
-                            fontFamily: 'Sans Pro',
-                            fontWeight: FontWeight.bold,
-                          ),
+                      SizedBox(
+                        width: 20.0,
+                      ),
+                      Text(
+                        " +91 9643 08 6660",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontFamily: 'Sans Pro',
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
@@ -75,27 +76,28 @@ class MyApp extends StatelessWidget {
               ),
               Container(
                 color: Colors.white,
-                margin: EdgeInsets.all(35),
+                padding: EdgeInsets.all(10),
+                margin: EdgeInsets.symmetric(
+                  vertical: 10.0,
+                  horizontal: 25.0,
+                ),
                 child: SafeArea(
                   child: Row(
                     children: [
-                      Padding(
-                        padding: const EdgeInsets.all(12.0),
-                        child: Icon(
-                          Icons.email_rounded,
-                          size: 30,
-                          color: Colors.teal[900],
-                        ),
+                      Icon(
+                        Icons.email_rounded,
+                        size: 20,
+                        color: Colors.teal[900],
                       ),
-                      Padding(
-                        padding: const EdgeInsets.all(12.0),
-                        child: Text(
-                          "sharma.vaibhav0311@gmail.com",
-                          style: TextStyle(
-                            fontSize: 18,
-                            fontFamily: 'Sans Pro',
-                            fontWeight: FontWeight.bold,
-                          ),
+                      SizedBox(
+                        width: 20.0,
+                      ),
+                      Text(
+                        " sharma.vaibhav0311@gmail.com",
+                        style: TextStyle(
+                          fontSize: 20,
+                          fontFamily: 'Sans Pro',
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
