@@ -86,7 +86,7 @@ class MyApp extends StatelessWidget {
                     children: [
                       Icon(
                         Icons.email_rounded,
-                        size: 20,
+
                         color: Colors.teal[900],
                       ),
                       SizedBox(
