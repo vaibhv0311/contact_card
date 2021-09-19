@@ -26,21 +26,80 @@ class MyApp extends StatelessWidget {
                 "Vaibhav Sharma",
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 23,
+                  fontSize: 25,
+                  letterSpacing: 1,
                   fontFamily: 'Pacifico',
                   fontWeight: FontWeight.bold,
                 ),
               ),
               SizedBox(
-                height: 10,
+                height: 5,
               ),
               Text(
-                "Flutter Developer",
+                "FLUTTER DEVELOPER",
                 style: TextStyle(
-                  color: Colors.white,
+                  letterSpacing: 2,
+                  color: Colors.teal[100],
                   fontSize: 23,
                   fontFamily: 'Sans Pro',
-                  fontStyle: FontStyle.normal,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.all(35),
+                child: SafeArea(
+                  child: Row(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Icon(
+                          Icons.call,
+                          color: Colors.teal[900],
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Text(
+                          "9643086660",
+                          style: TextStyle(
+                            fontSize: 25,
+                            fontFamily: 'Sans Pro',
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              Container(
+                color: Colors.white,
+                margin: EdgeInsets.all(35),
+                child: SafeArea(
+                  child: Row(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Icon(
+                          Icons.email_rounded,
+                          size: 30,
+                          color: Colors.teal[900],
+                        ),
+                      ),
+                      Padding(
+                        padding: const EdgeInsets.all(12.0),
+                        child: Text(
+                          "sharma.vaibhav0311@gmail.com",
+                          style: TextStyle(
+                            fontSize: 18,
+                            fontFamily: 'Sans Pro',
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
             ],

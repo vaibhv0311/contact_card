@@ -38,4 +38,4 @@ flutter:
     - family: Sans Pro
       fonts:
         - asset: fonts/SourceSansPro-ExtraLight.ttf
-        - asset: fonts/SourceSansPro-Light.ttf
+
