@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.teal,
+        backgroundColor: Colors.deepOrangeAccent,
         body: SafeArea(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -21,6 +21,9 @@ class MyApp extends StatelessWidget {
                   backgroundImage: AssetImage("images/dp.jpg"),
                   radius: 65,
                 ),
+              ),
+              SizedBox(
+                height: 10,
               ),
               Text(
                 "Vaibhav Sharma",
@@ -33,7 +36,7 @@ class MyApp extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 5,
+                height: 4,
               ),
               Text(
                 "FLUTTER DEVELOPER",
@@ -45,62 +48,51 @@ class MyApp extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-              Container(
-                color: Colors.white,
-                padding: EdgeInsets.all(10),
+              SizedBox(
+                height: 15,
+                width: 150,
+                child: Divider(
+                  color: Colors.teal[100],
+                  thickness: 2,
+                ),
+              ),
+              Card(
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
-                child: SafeArea(
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.call,
-                        color: Colors.teal[900],
-                      ),
-                      SizedBox(
-                        width: 20.0,
-                      ),
-                      Text(
-                        " +91 9643 08 6660",
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontFamily: 'Sans Pro',
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
+                child: ListTile(
+                  leading: Icon(
+                    Icons.call,
+                    color: Colors.teal[900],
+                  ),
+                  title: Text(
+                    " +91 9643-08-6660",
+                    style: TextStyle(
+                      fontSize: 19,
+                      fontFamily: 'Sans Pro',
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
               ),
-              Container(
-                color: Colors.white,
-                padding: EdgeInsets.all(10),
+              Card(
                 margin: EdgeInsets.symmetric(
                   vertical: 10.0,
                   horizontal: 25.0,
                 ),
-                child: SafeArea(
-                  child: Row(
-                    children: [
-                      Icon(
-                        Icons.email_rounded,
-
-                        color: Colors.teal[900],
-                      ),
-                      SizedBox(
-                        width: 20.0,
-                      ),
-                      Text(
-                        " sharma.vaibhav0311@gmail.com",
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontFamily: 'Sans Pro',
-                          fontWeight: FontWeight.bold,
-                        ),
-                      ),
-                    ],
+                child: ListTile(
+                  leading: Icon(
+                    Icons.email_rounded,
+                    color: Colors.teal[900],
+                  ),
+                  title: Text(
+                    " sharma.vaibhav0311@gmail.com",
+                    style: TextStyle(
+                      fontSize: 19,
+                      fontFamily: 'Sans Pro',
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
                 ),
               ),
