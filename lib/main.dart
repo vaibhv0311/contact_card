@@ -92,6 +92,7 @@ class MyApp extends StatelessWidget {
                       fontSize: 19,
                       fontFamily: 'Sans Pro',
                       fontWeight: FontWeight.bold,
+                  
                     ),
                   ),
                 ),
